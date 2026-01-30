@@ -3,9 +3,21 @@ using UnityEngine;
 public class MaskProperties : MonoBehaviour
 {
     [Header("Mask Properties")]
-    public Color maskColor = Color.white;
-    public bool isCracked;
+    public MaskColor maskColor = MaskColor.White;
+    public int crackAmounts;
     public EmotionType emotion;
+
+    public enum MaskColor
+    {
+        White,
+        Black,
+        Red,
+        Blue,
+        Green,
+        Yellow,
+        Purple,
+        Orange
+    }
 
     public enum EmotionType
     {
