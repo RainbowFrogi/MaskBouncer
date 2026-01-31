@@ -318,7 +318,7 @@ public class Settings : MonoBehaviour
 
     private static string DescribeRule(EntryRule rule)
     {
-        string action = rule.result == RuleResult.Allow ? "Allow" : "Deny";
+        string action = rule.result == RuleResult.Allow ? "Let in" : "Turn away";
 
         int parts = rule.SpecificityScore();
         if (parts <= 0)

@@ -29,10 +29,27 @@ public class Button : MonoBehaviour
 
 	public void No()
 	{
-		if (settings != null)
+		MaskProperties properties = randomPrefabSpawner.spawnedInstance != null
+			? randomPrefabSpawner.spawnedInstance.GetComponent<MaskProperties>()
+			: null;
+		if (settings == null)
+		{
+			Debug.LogWarning($"{nameof(Button)}: No Settings assigned.", this);
+		}
+		else if (properties != null)
+		{
+			EntryFacts facts = new EntryFacts(properties);
+			if (settings.TryGetBestMatch(facts, out EntryRule rule) && rule.result == RuleResult.Allow)
+			{
+				Debug.LogError($"Rule broken: {DescribeRule(rule)} for mask {DescribeMask(properties)}", this);
+			}
+			settings.RegisterDecision();
+		}
+		else if (settings != null)
 		{
 			settings.RegisterDecision();
 		}
+		randomPrefabSpawner.ReplaceWithRandom();
 	}
 
 	private static string DescribeRule(EntryRule rule)
