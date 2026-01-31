@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum RuleResult { Allow, Deny }
 
@@ -8,13 +9,13 @@ public enum RuleResult { Allow, Deny }
 public struct EntryFacts
 {
     public MaskProperties.MaskColor maskColor;
-    public int crackAmounts;
+    public bool hasCracks;
     public MaskProperties.EmotionType emotion;
 
     public EntryFacts(MaskProperties props)
     {
         maskColor = props != null ? props.maskColor : MaskProperties.MaskColor.White;
-        crackAmounts = props != null ? props.crackAmounts : 0;
+        hasCracks = props != null && props.hasCracks;
         emotion = props != null ? props.emotion : MaskProperties.EmotionType.Neutral;
     }
 }
@@ -25,8 +26,8 @@ public class EntryRule
     public bool useMaskColor;
     public MaskProperties.MaskColor maskColor;
 
-    public bool useCrackAmounts;
-    public int crackAmounts;
+    public bool useHasCracks;
+    public bool hasCracks;
 
     public bool useEmotion;
     public MaskProperties.EmotionType emotion;
@@ -37,7 +38,7 @@ public class EntryRule
     {
         int s = 0;
         if (useMaskColor) s++;
-        if (useCrackAmounts) s++;
+        if (useHasCracks) s++;
         if (useEmotion) s++;
         return s;
     }
@@ -45,7 +46,7 @@ public class EntryRule
     public bool Matches(in EntryFacts f)
     {
         if (useMaskColor && maskColor != f.maskColor) return false;
-        if (useCrackAmounts && crackAmounts != f.crackAmounts) return false;
+        if (useHasCracks && hasCracks != f.hasCracks) return false;
         if (useEmotion && emotion != f.emotion) return false;
         return true;
     }
@@ -62,12 +63,22 @@ public class Settings : MonoBehaviour
     [SerializeField] private int maxRules = 8;
     [SerializeField] private int maxGenerateAttempts = 200;
     [SerializeField] private int masksPerNewRule = 3;
+    [SerializeField] private int masksPerNewRuleStep = 1;
     [SerializeField] private TMP_Text ruleText;
+    [SerializeField] private TMP_Text timerText;
+    [SerializeField] private TMP_Text masksRemainingText;
     [SerializeField] private int maxHealth = 3;
+    [SerializeField] private float ruleTimeSeconds = 180f;
+    [SerializeField] private Image[] heartIcons;
+    [SerializeField] private GameObject gameOverPanel;
 
     private int currentDifficulty;
     private int masksProcessed;
+    private int masksSinceLastRule;
     private int currentHealth;
+    private int currentMasksPerNewRule;
+    private float timeRemaining;
+    private bool gameOver;
 
     private void Start()
     {
@@ -78,6 +89,15 @@ public class Settings : MonoBehaviour
         }
 
         currentHealth = Mathf.Max(1, maxHealth);
+        currentMasksPerNewRule = Mathf.Max(1, masksPerNewRule);
+        timeRemaining = Mathf.Max(1f, ruleTimeSeconds);
+        UpdateTimerText();
+        UpdateMasksRemainingText();
+        UpdateHealthUI();
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
     }
 
     public bool TryGetBestMatch(in EntryFacts f, out EntryRule bestRule)
@@ -104,33 +124,61 @@ public class Settings : MonoBehaviour
         return bestRule != null;
     }
 
-    public void RegisterDecision(bool correct)
+    private void Update()
     {
-        if (!autoGenerateRules)
+        if (gameOver)
         {
             return;
         }
 
+        timeRemaining -= Time.deltaTime;
+        if (timeRemaining <= 0f)
+        {
+            timeRemaining = 0f;
+            TriggerGameOver("Time ran out.");
+            return;
+        }
+
+        UpdateTimerText();
+    }
+
+    public void RegisterDecision(bool correct)
+    {
         if (!correct)
         {
             currentHealth = Mathf.Max(0, currentHealth - 1);
             if (currentHealth == 0)
             {
-                Debug.LogWarning("Health depleted.", this);
+                TriggerGameOver("Health depleted.");
             }
+            UpdateHealthUI();
         }
 
-        masksProcessed++;
-        if (masksPerNewRule <= 0)
+        if (gameOver)
         {
             return;
         }
 
-        if (masksProcessed % masksPerNewRule == 0)
+        if (!autoGenerateRules)
+        {
+            return;
+        }
+
+        masksProcessed++;
+        masksSinceLastRule++;
+        if (currentMasksPerNewRule <= 0)
+        {
+            return;
+        }
+
+        if (masksSinceLastRule >= currentMasksPerNewRule)
         {
             currentDifficulty = Mathf.Max(1, currentDifficulty + 1);
             AddRule(currentDifficulty);
+            currentMasksPerNewRule = Mathf.Max(1, currentMasksPerNewRule + masksPerNewRuleStep);
+            masksSinceLastRule = 0;
         }
+        UpdateMasksRemainingText();
     }
 
     private void GenerateInitialRule(int difficulty)
@@ -157,6 +205,8 @@ public class Settings : MonoBehaviour
             }
             rules.Add(rule);
             UpdateRuleText(rule);
+            ResetTimer();
+            UpdateMasksRemainingText();
             return;
         }
     }
@@ -183,16 +233,16 @@ public class Settings : MonoBehaviour
         float fieldChance = Mathf.Clamp01(0.25f + (difficulty * 0.1f));
 
         rule.useMaskColor = Random.value < fieldChance;
-        rule.useCrackAmounts = Random.value < fieldChance;
+        rule.useHasCracks = Random.value < fieldChance;
         rule.useEmotion = Random.value < fieldChance;
 
-        if (!rule.useMaskColor && !rule.useCrackAmounts && !rule.useEmotion)
+        if (!rule.useMaskColor && !rule.useHasCracks && !rule.useEmotion)
         {
             rule.useMaskColor = true;
         }
 
         rule.maskColor = (MaskProperties.MaskColor)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskColor)).Length);
-        rule.crackAmounts = Random.Range(0, 4 + Mathf.Min(difficulty, 6));
+        rule.hasCracks = Random.value < 0.5f;
         rule.emotion = (MaskProperties.EmotionType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.EmotionType)).Length);
 
         rule.result = Random.value < 0.5f ? RuleResult.Allow : RuleResult.Deny;
@@ -233,8 +283,8 @@ public class Settings : MonoBehaviour
         rule.useMaskColor = denyRule.useMaskColor;
         rule.maskColor = denyRule.maskColor;
 
-        rule.useCrackAmounts = denyRule.useCrackAmounts;
-        rule.crackAmounts = denyRule.crackAmounts;
+        rule.useHasCracks = denyRule.useHasCracks;
+        rule.hasCracks = denyRule.hasCracks;
 
         rule.useEmotion = denyRule.useEmotion;
         rule.emotion = denyRule.emotion;
@@ -251,10 +301,10 @@ public class Settings : MonoBehaviour
                 continue;
             }
 
-            if (!rule.useCrackAmounts && Random.value < 0.5f)
+            if (!rule.useHasCracks && Random.value < 0.5f)
             {
-                rule.useCrackAmounts = true;
-                rule.crackAmounts = Random.Range(0, 4 + Mathf.Min(difficulty, 6));
+                rule.useHasCracks = true;
+                rule.hasCracks = Random.value < 0.5f;
                 continue;
             }
 
@@ -304,17 +354,17 @@ public class Settings : MonoBehaviour
     private static bool RulesAreIdentical(EntryRule a, EntryRule b)
     {
         return a.useMaskColor == b.useMaskColor &&
-               a.useCrackAmounts == b.useCrackAmounts &&
+               a.useHasCracks == b.useHasCracks &&
                a.useEmotion == b.useEmotion &&
                (!a.useMaskColor || a.maskColor == b.maskColor) &&
-               (!a.useCrackAmounts || a.crackAmounts == b.crackAmounts) &&
+               (!a.useHasCracks || a.hasCracks == b.hasCracks) &&
                (!a.useEmotion || a.emotion == b.emotion);
     }
 
     private static bool RulesCanOverlap(EntryRule a, EntryRule b)
     {
         if (a.useMaskColor && b.useMaskColor && a.maskColor != b.maskColor) return false;
-        if (a.useCrackAmounts && b.useCrackAmounts && a.crackAmounts != b.crackAmounts) return false;
+        if (a.useHasCracks && b.useHasCracks && a.hasCracks != b.hasCracks) return false;
         if (a.useEmotion && b.useEmotion && a.emotion != b.emotion) return false;
         return true;
     }
@@ -353,10 +403,10 @@ public class Settings : MonoBehaviour
             first = false;
         }
 
-        if (rule.useCrackAmounts)
+        if (rule.useHasCracks)
         {
             text += first ? "" : ", ";
-            text += $"{rule.crackAmounts} cracks";
+            text += rule.hasCracks ? "cracked" : "not cracked";
             first = false;
         }
 
@@ -367,5 +417,67 @@ public class Settings : MonoBehaviour
         }
 
         return text;
+    }
+
+    private void UpdateHealthUI()
+    {
+        if (heartIcons == null || heartIcons.Length == 0)
+        {
+            return;
+        }
+
+        for (int i = 0; i < heartIcons.Length; i++)
+        {
+            if (heartIcons[i] == null)
+            {
+                continue;
+            }
+            heartIcons[i].enabled = i < currentHealth;
+        }
+    }
+
+    private void UpdateMasksRemainingText()
+    {
+        if (masksRemainingText == null)
+        {
+            return;
+        }
+
+        int remaining = Mathf.Max(0, currentMasksPerNewRule - masksSinceLastRule);
+        masksRemainingText.text = $"Masks to next rule: {remaining}";
+    }
+
+    private void UpdateTimerText()
+    {
+        if (timerText == null)
+        {
+            return;
+        }
+
+        int seconds = Mathf.CeilToInt(timeRemaining);
+        int minutes = seconds / 60;
+        int remainder = seconds % 60;
+        timerText.text = $"{minutes:00}:{remainder:00}";
+    }
+
+    private void ResetTimer()
+    {
+        timeRemaining = Mathf.Max(1f, ruleTimeSeconds);
+        UpdateTimerText();
+    }
+
+    private void TriggerGameOver(string reason)
+    {
+        if (gameOver)
+        {
+            return;
+        }
+
+        gameOver = true;
+        Debug.LogWarning(reason, this);
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
     }
 }

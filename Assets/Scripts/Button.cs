@@ -71,7 +71,7 @@ public class Button : MonoBehaviour
 	{
 		if (rule == null) return "<null>";
 		string color = rule.useMaskColor ? rule.maskColor.ToString() : "AnyColor";
-		string cracks = rule.useCrackAmounts ? rule.crackAmounts.ToString() : "AnyCracks";
+		string cracks = rule.useHasCracks ? (rule.hasCracks ? "cracked" : "not cracked") : "AnyCracks";
 		string emotion = rule.useEmotion ? rule.emotion.ToString() : "AnyEmotion";
 		return $"{rule.result} [{color}, {cracks}, {emotion}]";
 	}
@@ -79,6 +79,6 @@ public class Button : MonoBehaviour
 	private static string DescribeMask(MaskProperties props)
 	{
 		if (props == null) return "<null>";
-		return $"{props.maskColor}, {props.crackAmounts}, {props.emotion}";
+		return $"{props.maskColor}, {(props.hasCracks ? "cracked" : "not cracked")}, {props.emotion}";
 	}
 }

@@ -4,7 +4,7 @@ public class MaskProperties : MonoBehaviour
 {
     [Header("Mask Properties")]
     public MaskColor maskColor = MaskColor.White;
-    public int crackAmounts;
+    public bool hasCracks;
     public EmotionType emotion;
 
     public enum MaskColor
