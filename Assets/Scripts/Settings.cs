@@ -63,9 +63,11 @@ public class Settings : MonoBehaviour
     [SerializeField] private int maxGenerateAttempts = 200;
     [SerializeField] private int masksPerNewRule = 3;
     [SerializeField] private TMP_Text ruleText;
+    [SerializeField] private int maxHealth = 3;
 
     private int currentDifficulty;
     private int masksProcessed;
+    private int currentHealth;
 
     private void Start()
     {
@@ -74,6 +76,8 @@ public class Settings : MonoBehaviour
             currentDifficulty = Mathf.Max(1, startingDifficulty);
             GenerateInitialRule(currentDifficulty);
         }
+
+        currentHealth = Mathf.Max(1, maxHealth);
     }
 
     public bool TryGetBestMatch(in EntryFacts f, out EntryRule bestRule)
@@ -100,11 +104,20 @@ public class Settings : MonoBehaviour
         return bestRule != null;
     }
 
-    public void RegisterDecision()
+    public void RegisterDecision(bool correct)
     {
         if (!autoGenerateRules)
         {
             return;
+        }
+
+        if (!correct)
+        {
+            currentHealth = Mathf.Max(0, currentHealth - 1);
+            if (currentHealth == 0)
+            {
+                Debug.LogWarning("Health depleted.", this);
+            }
         }
 
         masksProcessed++;

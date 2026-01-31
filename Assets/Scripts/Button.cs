@@ -8,6 +8,7 @@ public class Button : MonoBehaviour
 	public void Yes()
 	{
 		MaskProperties properties = randomPrefabSpawner.spawnedInstance.GetComponent<MaskProperties>();
+		bool correct = true;
 		if (settings == null)
 		{
 			Debug.LogWarning($"{nameof(Button)}: No Settings assigned.", this);
@@ -15,14 +16,18 @@ public class Button : MonoBehaviour
 		else if (properties != null)
 		{
 			EntryFacts facts = new EntryFacts(properties);
-			if (settings.TryGetBestMatch(facts, out EntryRule rule) && rule.result == RuleResult.Deny)
+			if (settings.TryGetBestMatch(facts, out EntryRule rule))
 			{
-				Debug.LogError($"Rule broken: {DescribeRule(rule)} for mask {DescribeMask(properties)}", this);
+				if (rule.result == RuleResult.Deny)
+				{
+					Debug.LogError($"Rule broken: {DescribeRule(rule)} for mask {DescribeMask(properties)}", this);
+					correct = false;
+				}
 			}
 		}
 		if (settings != null)
 		{
-			settings.RegisterDecision();
+			settings.RegisterDecision(correct);
 		}
 		randomPrefabSpawner.ReplaceWithRandom();
 	}
@@ -32,6 +37,7 @@ public class Button : MonoBehaviour
 		MaskProperties properties = randomPrefabSpawner.spawnedInstance != null
 			? randomPrefabSpawner.spawnedInstance.GetComponent<MaskProperties>()
 			: null;
+		bool correct = true;
 		if (settings == null)
 		{
 			Debug.LogWarning($"{nameof(Button)}: No Settings assigned.", this);
@@ -39,15 +45,24 @@ public class Button : MonoBehaviour
 		else if (properties != null)
 		{
 			EntryFacts facts = new EntryFacts(properties);
-			if (settings.TryGetBestMatch(facts, out EntryRule rule) && rule.result == RuleResult.Allow)
+			if (settings.TryGetBestMatch(facts, out EntryRule rule))
 			{
-				Debug.LogError($"Rule broken: {DescribeRule(rule)} for mask {DescribeMask(properties)}", this);
+				if (rule.result == RuleResult.Allow)
+				{
+					Debug.LogError($"Rule broken: {DescribeRule(rule)} for mask {DescribeMask(properties)}", this);
+					correct = false;
+				}
 			}
-			settings.RegisterDecision();
+			else
+			{
+				Debug.LogError($"Rule broken: No matching rule (default allow) for mask {DescribeMask(properties)}", this);
+				correct = false;
+			}
+			settings.RegisterDecision(correct);
 		}
 		else if (settings != null)
 		{
-			settings.RegisterDecision();
+			settings.RegisterDecision(correct);
 		}
 		randomPrefabSpawner.ReplaceWithRandom();
 	}
