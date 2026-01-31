@@ -3,14 +3,12 @@ using UnityEngine;
 public class MaskProperties : MonoBehaviour
 {
     [Header("Mask Properties")]
-    public MaskColor maskColor = MaskColor.White;
-    public bool hasCracks;
-    public EmotionType emotion;
+    public MaskColor maskColor;
+    public MaskType maskType;
 
     public enum MaskColor
     {
         White,
-        Black,
         Red,
         Blue,
         Green,
@@ -19,13 +17,19 @@ public class MaskProperties : MonoBehaviour
         Orange
     }
 
-    public enum EmotionType
+    public enum MaskType
     {
-        Neutral,
         Happy,
-        Sad,
         Angry,
-        Fear,
-        Surprise
+        Winking,
+        CryLaugh,
+        Hat,
+        Crying,
+        Blushing,
+        Scared,
+        Evil,
+        Broken,
+        XD,
+        Karjala
     }
 }

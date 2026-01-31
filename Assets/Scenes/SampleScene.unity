@@ -947,7 +947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4657243761757014800, guid: 77318e9e4d0fd5c71a5d4ca81b5742e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ec7e726d5a64c54ea787b5316055c18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1253,13 +1253,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 603383283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e78b8ecf0481f21f9919675d7101a44, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad4894d1f1cae14eb98a2208771e4f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RandomPrefabSpawner
-  prefabs:
-  - {fileID: 2159647539376011557, guid: e1815cfd843aa5a128e17d3f539441af, type: 3}
-  - {fileID: 5448682642599662414, guid: cd14962c029d3e56bb20e322b74690c4, type: 3}
-  - {fileID: 6377198751917867167, guid: c0bbe1fdcb1860848ac116b02883fb2b, type: 3}
+  prefabs: []
   spawnPoint: {fileID: 603383284}
   spawnAtCameraCenter: 1
   targetCamera: {fileID: 519420031}
@@ -1496,7 +1493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4657243761757014800, guid: 77318e9e4d0fd5c71a5d4ca81b5742e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ec7e726d5a64c54ea787b5316055c18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1532,7 +1529,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1059596460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d2dd0daa8571139807d545e7ce7024, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b6c501a9c135914490c8d9807e36e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Settings
   rules: []
@@ -1632,7 +1629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4657243761757014800, guid: 77318e9e4d0fd5c71a5d4ca81b5742e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ec7e726d5a64c54ea787b5316055c18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1654,7 +1651,7 @@ GameObject:
   - component: {fileID: 1862584227}
   - component: {fileID: 1862584226}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RuleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1804,7 +1801,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1978482319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 587036e8ddfc89ba5b50f3a6cd166a85, type: 3}
+  m_Script: {fileID: 11500000, guid: a8160470aef244840b1c1bba66821816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Button
   randomPrefabSpawner: {fileID: 603383285}

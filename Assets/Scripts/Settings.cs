@@ -10,13 +10,13 @@ public struct EntryFacts
 {
     public MaskProperties.MaskColor maskColor;
     public bool hasCracks;
-    public MaskProperties.EmotionType emotion;
+    public MaskProperties.MaskType maskType;
 
     public EntryFacts(MaskProperties props)
     {
         maskColor = props != null ? props.maskColor : MaskProperties.MaskColor.White;
         hasCracks = props != null && props.hasCracks;
-        emotion = props != null ? props.emotion : MaskProperties.EmotionType.Neutral;
+        maskType = props != null ? props.maskType : MaskProperties.MaskType.Neutral;
     }
 }
 
@@ -30,7 +30,7 @@ public class EntryRule
     public bool hasCracks;
 
     public bool useEmotion;
-    public MaskProperties.EmotionType emotion;
+    public MaskProperties.MaskType maskType;
 
     public RuleResult result;
 
@@ -47,7 +47,7 @@ public class EntryRule
     {
         if (useMaskColor && maskColor != f.maskColor) return false;
         if (useHasCracks && hasCracks != f.hasCracks) return false;
-        if (useEmotion && emotion != f.emotion) return false;
+        if (useEmotion && maskType != f.maskType) return false;
         return true;
     }
 }
@@ -243,7 +243,7 @@ public class Settings : MonoBehaviour
 
         rule.maskColor = (MaskProperties.MaskColor)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskColor)).Length);
         rule.hasCracks = Random.value < 0.5f;
-        rule.emotion = (MaskProperties.EmotionType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.EmotionType)).Length);
+        rule.maskType = (MaskProperties.MaskType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskType)).Length);
 
         rule.result = Random.value < 0.5f ? RuleResult.Allow : RuleResult.Deny;
 
@@ -287,7 +287,7 @@ public class Settings : MonoBehaviour
         rule.hasCracks = denyRule.hasCracks;
 
         rule.useEmotion = denyRule.useEmotion;
-        rule.emotion = denyRule.emotion;
+        rule.maskType = denyRule.maskType;
 
         int attempts = 0;
         while (rule.SpecificityScore() <= denyRule.SpecificityScore() && attempts < maxGenerateAttempts)
@@ -311,7 +311,7 @@ public class Settings : MonoBehaviour
             if (!rule.useEmotion)
             {
                 rule.useEmotion = true;
-                rule.emotion = (MaskProperties.EmotionType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.EmotionType)).Length);
+                rule.maskType = (MaskProperties.MaskType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskType)).Length);
                 continue;
             }
         }
@@ -358,14 +358,14 @@ public class Settings : MonoBehaviour
                a.useEmotion == b.useEmotion &&
                (!a.useMaskColor || a.maskColor == b.maskColor) &&
                (!a.useHasCracks || a.hasCracks == b.hasCracks) &&
-               (!a.useEmotion || a.emotion == b.emotion);
+               (!a.useEmotion || a.maskType == b.maskType);
     }
 
     private static bool RulesCanOverlap(EntryRule a, EntryRule b)
     {
         if (a.useMaskColor && b.useMaskColor && a.maskColor != b.maskColor) return false;
         if (a.useHasCracks && b.useHasCracks && a.hasCracks != b.hasCracks) return false;
-        if (a.useEmotion && b.useEmotion && a.emotion != b.emotion) return false;
+        if (a.useEmotion && b.useEmotion && a.maskType != b.maskType) return false;
         return true;
     }
 
@@ -413,7 +413,7 @@ public class Settings : MonoBehaviour
         if (rule.useEmotion)
         {
             text += first ? "" : ", ";
-            text += $"{rule.emotion} emotion";
+            text += $"{rule.maskType} emotion";
         }
 
         return text;
