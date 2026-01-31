@@ -9,14 +9,12 @@ public enum RuleResult { Allow, Deny }
 public struct EntryFacts
 {
     public MaskProperties.MaskColor maskColor;
-    public bool hasCracks;
     public MaskProperties.MaskType maskType;
 
     public EntryFacts(MaskProperties props)
     {
         maskColor = props != null ? props.maskColor : MaskProperties.MaskColor.White;
-        hasCracks = props != null && props.hasCracks;
-        maskType = props != null ? props.maskType : MaskProperties.MaskType.Neutral;
+        maskType = props != null ? props.maskType : MaskProperties.MaskType.Happy;
     }
 }
 
@@ -25,9 +23,6 @@ public class EntryRule
 {
     public bool useMaskColor;
     public MaskProperties.MaskColor maskColor;
-
-    public bool useHasCracks;
-    public bool hasCracks;
 
     public bool useEmotion;
     public MaskProperties.MaskType maskType;
@@ -38,7 +33,6 @@ public class EntryRule
     {
         int s = 0;
         if (useMaskColor) s++;
-        if (useHasCracks) s++;
         if (useEmotion) s++;
         return s;
     }
@@ -46,7 +40,6 @@ public class EntryRule
     public bool Matches(in EntryFacts f)
     {
         if (useMaskColor && maskColor != f.maskColor) return false;
-        if (useHasCracks && hasCracks != f.hasCracks) return false;
         if (useEmotion && maskType != f.maskType) return false;
         return true;
     }
@@ -233,16 +226,14 @@ public class Settings : MonoBehaviour
         float fieldChance = Mathf.Clamp01(0.25f + (difficulty * 0.1f));
 
         rule.useMaskColor = Random.value < fieldChance;
-        rule.useHasCracks = Random.value < fieldChance;
         rule.useEmotion = Random.value < fieldChance;
 
-        if (!rule.useMaskColor && !rule.useHasCracks && !rule.useEmotion)
+        if (!rule.useMaskColor && !rule.useEmotion)
         {
             rule.useMaskColor = true;
         }
 
         rule.maskColor = (MaskProperties.MaskColor)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskColor)).Length);
-        rule.hasCracks = Random.value < 0.5f;
         rule.maskType = (MaskProperties.MaskType)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskType)).Length);
 
         rule.result = Random.value < 0.5f ? RuleResult.Allow : RuleResult.Deny;
@@ -283,9 +274,6 @@ public class Settings : MonoBehaviour
         rule.useMaskColor = denyRule.useMaskColor;
         rule.maskColor = denyRule.maskColor;
 
-        rule.useHasCracks = denyRule.useHasCracks;
-        rule.hasCracks = denyRule.hasCracks;
-
         rule.useEmotion = denyRule.useEmotion;
         rule.maskType = denyRule.maskType;
 
@@ -298,13 +286,6 @@ public class Settings : MonoBehaviour
             {
                 rule.useMaskColor = true;
                 rule.maskColor = (MaskProperties.MaskColor)Random.Range(0, System.Enum.GetValues(typeof(MaskProperties.MaskColor)).Length);
-                continue;
-            }
-
-            if (!rule.useHasCracks && Random.value < 0.5f)
-            {
-                rule.useHasCracks = true;
-                rule.hasCracks = Random.value < 0.5f;
                 continue;
             }
 
@@ -354,17 +335,14 @@ public class Settings : MonoBehaviour
     private static bool RulesAreIdentical(EntryRule a, EntryRule b)
     {
         return a.useMaskColor == b.useMaskColor &&
-               a.useHasCracks == b.useHasCracks &&
                a.useEmotion == b.useEmotion &&
                (!a.useMaskColor || a.maskColor == b.maskColor) &&
-               (!a.useHasCracks || a.hasCracks == b.hasCracks) &&
                (!a.useEmotion || a.maskType == b.maskType);
     }
 
     private static bool RulesCanOverlap(EntryRule a, EntryRule b)
     {
         if (a.useMaskColor && b.useMaskColor && a.maskColor != b.maskColor) return false;
-        if (a.useHasCracks && b.useHasCracks && a.hasCracks != b.hasCracks) return false;
         if (a.useEmotion && b.useEmotion && a.maskType != b.maskType) return false;
         return true;
     }
@@ -400,13 +378,6 @@ public class Settings : MonoBehaviour
         if (rule.useMaskColor)
         {
             text += $"{rule.maskColor} color";
-            first = false;
-        }
-
-        if (rule.useHasCracks)
-        {
-            text += first ? "" : ", ";
-            text += rule.hasCracks ? "cracked" : "not cracked";
             first = false;
         }
 
