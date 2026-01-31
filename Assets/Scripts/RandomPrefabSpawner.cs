@@ -12,7 +12,7 @@ public class RandomPrefabSpawner : MonoBehaviour
     [SerializeField] private Camera targetCamera;
 
     [Header("Runtime")]
-    [SerializeField] private GameObject spawnedInstance;
+    [SerializeField] public GameObject spawnedInstance;
 
 	void Start()
 	{

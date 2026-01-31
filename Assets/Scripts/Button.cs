@@ -6,6 +6,7 @@ public class Button : MonoBehaviour
 
 	public void Yes()
 	{
+		MaskProperties properties = randomPrefabSpawner.spawnedInstance.GetComponent<MaskProperties>();
 		randomPrefabSpawner.ReplaceWithRandom();
 	}
 
