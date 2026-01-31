@@ -1,0 +1,2303 @@
+fileFormatVersion: 2
+guid: 3fd7e29016aabd44a884c4d0c266d4f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6100563237222663695
+    second: MasksFInishedSpritesheet_0
+  - first:
+      213: -3640818778969162222
+    second: MasksFInishedSpritesheet_1
+  - first:
+      213: -228015532437105729
+    second: MasksFInishedSpritesheet_2
+  - first:
+      213: -3019739462563295546
+    second: MasksFInishedSpritesheet_3
+  - first:
+      213: 3078489684464752458
+    second: MasksFInishedSpritesheet_4
+  - first:
+      213: 6703556566267423037
+    second: MasksFInishedSpritesheet_5
+  - first:
+      213: -1637078934967211623
+    second: MasksFInishedSpritesheet_6
+  - first:
+      213: 7332965114749050662
+    second: MasksFInishedSpritesheet_7
+  - first:
+      213: 3912350143889753768
+    second: MasksFInishedSpritesheet_8
+  - first:
+      213: 756524670563054625
+    second: MasksFInishedSpritesheet_9
+  - first:
+      213: -8941709165739075638
+    second: MasksFInishedSpritesheet_10
+  - first:
+      213: 8055251368443681937
+    second: MasksFInishedSpritesheet_11
+  - first:
+      213: 112120088214707227
+    second: MasksFInishedSpritesheet_12
+  - first:
+      213: -3283673195704566671
+    second: MasksFInishedSpritesheet_13
+  - first:
+      213: 1086130649138930270
+    second: MasksFInishedSpritesheet_14
+  - first:
+      213: -3650666687993228453
+    second: MasksFInishedSpritesheet_15
+  - first:
+      213: 3289018397704342962
+    second: MasksFInishedSpritesheet_16
+  - first:
+      213: -3665783730661968641
+    second: MasksFInishedSpritesheet_17
+  - first:
+      213: 2546512457554687420
+    second: MasksFInishedSpritesheet_18
+  - first:
+      213: -6467331822066393806
+    second: MasksFInishedSpritesheet_19
+  - first:
+      213: -1486165176751834738
+    second: MasksFInishedSpritesheet_20
+  - first:
+      213: -3792609605217243277
+    second: MasksFInishedSpritesheet_21
+  - first:
+      213: -3633704465033886052
+    second: MasksFInishedSpritesheet_22
+  - first:
+      213: -5455091532476112113
+    second: MasksFInishedSpritesheet_23
+  - first:
+      213: -3603261690890808283
+    second: MasksFInishedSpritesheet_24
+  - first:
+      213: -5731393581650766188
+    second: MasksFInishedSpritesheet_25
+  - first:
+      213: -2980248001009872628
+    second: MasksFInishedSpritesheet_26
+  - first:
+      213: 7040520185377774326
+    second: MasksFInishedSpritesheet_27
+  - first:
+      213: 7171787254096953376
+    second: MasksFInishedSpritesheet_28
+  - first:
+      213: -8160977106451175078
+    second: MasksFInishedSpritesheet_29
+  - first:
+      213: -632433553130387708
+    second: MasksFInishedSpritesheet_30
+  - first:
+      213: 4877493011228027201
+    second: MasksFInishedSpritesheet_31
+  - first:
+      213: 9048884919129255057
+    second: MasksFInishedSpritesheet_32
+  - first:
+      213: 8299384862381017623
+    second: MasksFInishedSpritesheet_33
+  - first:
+      213: 5182528359621402112
+    second: MasksFInishedSpritesheet_34
+  - first:
+      213: -5783671334022511383
+    second: MasksFInishedSpritesheet_35
+  - first:
+      213: -3015396099483802115
+    second: MasksFInishedSpritesheet_36
+  - first:
+      213: -5383910366333437218
+    second: MasksFInishedSpritesheet_37
+  - first:
+      213: 8117051964929266980
+    second: MasksFInishedSpritesheet_38
+  - first:
+      213: -6889553855688929978
+    second: MasksFInishedSpritesheet_39
+  - first:
+      213: 7904712967773928236
+    second: MasksFInishedSpritesheet_40
+  - first:
+      213: -5236059609117578201
+    second: MasksFInishedSpritesheet_41
+  - first:
+      213: -9056047480112545539
+    second: MasksFInishedSpritesheet_42
+  - first:
+      213: -7774370151059660056
+    second: MasksFInishedSpritesheet_43
+  - first:
+      213: -3911608372512681379
+    second: MasksFInishedSpritesheet_44
+  - first:
+      213: -5508007234171929903
+    second: MasksFInishedSpritesheet_45
+  - first:
+      213: 5116387995663451133
+    second: MasksFInishedSpritesheet_46
+  - first:
+      213: -3379564509322302027
+    second: MasksFInishedSpritesheet_47
+  - first:
+      213: -9197214907218804577
+    second: MasksFInishedSpritesheet_48
+  - first:
+      213: 7940053060471721174
+    second: MasksFInishedSpritesheet_49
+  - first:
+      213: 5023088011635111181
+    second: MasksFInishedSpritesheet_50
+  - first:
+      213: 5244800881627716737
+    second: MasksFInishedSpritesheet_51
+  - first:
+      213: -1028446004837044206
+    second: MasksFInishedSpritesheet_52
+  - first:
+      213: -8546504008186402113
+    second: MasksFInishedSpritesheet_53
+  - first:
+      213: 1290578158230093900
+    second: MasksFInishedSpritesheet_54
+  - first:
+      213: 3734157956860819133
+    second: MasksFInishedSpritesheet_55
+  - first:
+      213: -7058265868940328800
+    second: MasksFInishedSpritesheet_56
+  - first:
+      213: 8589858173362742538
+    second: MasksFInishedSpritesheet_57
+  - first:
+      213: -5320395770616767752
+    second: MasksFInishedSpritesheet_58
+  - first:
+      213: 185806152920543951
+    second: MasksFInishedSpritesheet_59
+  - first:
+      213: 2778299241166739689
+    second: MasksFInishedSpritesheet_60
+  - first:
+      213: 6378888524858621270
+    second: MasksFInishedSpritesheet_61
+  - first:
+      213: -1262199221590629857
+    second: MasksFInishedSpritesheet_62
+  - first:
+      213: -9052535584761028164
+    second: MasksFInishedSpritesheet_63
+  - first:
+      213: -6723478667908910863
+    second: MasksFInishedSpritesheet_64
+  - first:
+      213: 3643454828436493978
+    second: MasksFInishedSpritesheet_65
+  - first:
+      213: 6139356793428708037
+    second: MasksFInishedSpritesheet_66
+  - first:
+      213: -3138533444034281074
+    second: MasksFInishedSpritesheet_67
+  - first:
+      213: -4987256140917967101
+    second: MasksFInishedSpritesheet_68
+  - first:
+      213: 8642113145935678178
+    second: MasksFInishedSpritesheet_69
+  - first:
+      213: 180234051774090498
+    second: MasksFInishedSpritesheet_70
+  - first:
+      213: -4255437657677383167
+    second: MasksFInishedSpritesheet_71
+  - first:
+      213: 1889618620075571602
+    second: MasksFInishedSpritesheet_72
+  - first:
+      213: 8942014017593595932
+    second: MasksFInishedSpritesheet_73
+  - first:
+      213: -3586233206640675951
+    second: MasksFInishedSpritesheet_74
+  - first:
+      213: 1534439415659158375
+    second: MasksFInishedSpritesheet_75
+  - first:
+      213: -1095907403193506481
+    second: MasksFInishedSpritesheet_76
+  - first:
+      213: -1770032389609000319
+    second: MasksFInishedSpritesheet_77
+  - first:
+      213: 6428216577162537282
+    second: MasksFInishedSpritesheet_78
+  - first:
+      213: -3100856975833900985
+    second: MasksFInishedSpritesheet_79
+  - first:
+      213: -8278052345122177425
+    second: MasksFInishedSpritesheet_80
+  - first:
+      213: 8950646083343876005
+    second: MasksFInishedSpritesheet_81
+  - first:
+      213: -448888488034794354
+    second: MasksFInishedSpritesheet_82
+  - first:
+      213: 9083881961297756178
+    second: MasksFInishedSpritesheet_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93983de02765ba0800000000000000
+      internalID: -6100563237222663695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb8f34c96397dc0800000000000000
+      internalID: -3640818778969162222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb390d1d41de5dcf0800000000000000
+      internalID: -228015532437105729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce8fa345fab716d0800000000000000
+      internalID: -3019739462563295546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 156
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d937be0ef8ba20800000000000000
+      internalID: 3078489684464752458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 130
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d396b181e21d70d50800000000000000
+      internalID: 6703556566267423037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999210cd16de749e0800000000000000
+      internalID: -1637078934967211623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd2fe8bece3c560800000000000000
+      internalID: 7332965114749050662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64f733ab57b4630800000000000000
+      internalID: 3912350143889753768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 156
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124fabcfd27bf7a00800000000000000
+      internalID: 756524670563054625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 130
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7944393eaa8e380800000000000000
+      internalID: -8941709165739075638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c9098e0700acf60800000000000000
+      internalID: 8055251368443681937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 156
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c193e40a45e8100800000000000000
+      internalID: 112120088214707227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 156
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cbe8b40ac0e62d0800000000000000
+      internalID: -3283673195704566671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5227912216b21f00800000000000000
+      internalID: 1086130649138930270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53dfc44df9365dc0800000000000000
+      internalID: -3650666687993228453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd44e68ec0f4ad20800000000000000
+      internalID: 3289018397704342962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4bc7e7e15802dc0800000000000000
+      internalID: -3665783730661968641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 104
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb577a09697075320800000000000000
+      internalID: 2546512457554687420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d172529fb6f36a0800000000000000
+      internalID: -6467331822066393806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89b62255a4106be0800000000000000
+      internalID: -1486165176751834738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37faa4d78a1fd5bc0800000000000000
+      internalID: -3792609605217243277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 104
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9687ee8a0d729dc0800000000000000
+      internalID: -3633704465033886052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03258d472f9b44b0800000000000000
+      internalID: -5455091532476112113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5241ea14594aefdc0800000000000000
+      internalID: -3603261690890808283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 130
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49690c957eff570b0800000000000000
+      internalID: -5731393581650766188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c011d3dab3804a6d0800000000000000
+      internalID: -2980248001009872628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fad86b6ec3f4b160800000000000000
+      internalID: 7040520185377774326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0208f15828e478360800000000000000
+      internalID: 7171787254096953376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59e1e57f826ebe80800000000000000
+      internalID: -8160977106451175078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40700a1c8052937f0800000000000000
+      internalID: -632433553130387708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14962b83d0650b340800000000000000
+      internalID: 4877493011228027201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ca61214e8149d70800000000000000
+      internalID: 9048884919129255057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a89707f865d2370800000000000000
+      internalID: 8299384862381017623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 78
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e1f99b51a0ce740800000000000000
+      internalID: 5182528359621402112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e48afd90954cbfa0800000000000000
+      internalID: -5783671334022511383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df56b2949392726d0800000000000000
+      internalID: -3015396099483802115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 104
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaf6280c028845b0800000000000000
+      internalID: -5383910366333437218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425def091cf85a070800000000000000
+      internalID: 8117051964929266980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d0dba45436360a0800000000000000
+      internalID: -6889553855688929978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bb69f209e23bd60800000000000000
+      internalID: 7904712967773928236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ca6cff687c557b0800000000000000
+      internalID: -5236059609117578201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 52
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df002de3cc4725280800000000000000
+      internalID: -9056047480112545539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e260b9b983eb1490800000000000000
+      internalID: -7774370151059660056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5210f7e8ec27b9c0800000000000000
+      internalID: -3911608372512681379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da76ea6a90af83b0800000000000000
+      internalID: -5508007234171929903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 52
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c79636cf010740800000000000000
+      internalID: 5116387995663451133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bda3560cff5911d0800000000000000
+      internalID: -3379564509322302027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90cb4455cdec5080800000000000000
+      internalID: -9197214907218804577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 78
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc8b27b03cb03e60800000000000000
+      internalID: 7940053060471721174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b801eee795b540800000000000000
+      internalID: 5023088011635111181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c531b1d9649c840800000000000000
+      internalID: 5244800881627716737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210b40bbec93ab1f0800000000000000
+      internalID: -1028446004837044206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae898c2e7b46980800000000000000
+      internalID: -8546504008186402113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 26
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40ce244ffd09e110800000000000000
+      internalID: 1290578158230093900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db633e990e462d330800000000000000
+      internalID: 3734157956860819133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a04c87a6900c0e90800000000000000
+      internalID: -7058265868940328800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05a5466f7e453770800000000000000
+      internalID: 8589858173362742538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 26
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa95eb3c382a26b0800000000000000
+      internalID: -5320395770616767752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc239ed26bd149200800000000000000
+      internalID: 185806152920543951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 52
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e81b7590708e8620800000000000000
+      internalID: 2778299241166739689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 52
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d730a015d568850800000000000000
+      internalID: 6378888524858621270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12e051de74cb7ee0800000000000000
+      internalID: -1262199221590629857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb16cb919deee5280800000000000000
+      internalID: -9052535584761028164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f07f5826c761b2a0800000000000000
+      internalID: -6723478667908910863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a969324dcd6209230800000000000000
+      internalID: 3643454828436493978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Hat
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca03b5d970633550800000000000000
+      internalID: 6139356793428708037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8147a81670b174d0800000000000000
+      internalID: -3138533444034281074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307f2b4a6f4b9cab0800000000000000
+      internalID: -4987256140917967101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaca3c4e14fee770800000000000000
+      internalID: 8642113145935678178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Evil
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d8c684ae1508200800000000000000
+      internalID: 180234051774090498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ab1522ff5a1f4c0800000000000000
+      internalID: -4255437657677383167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 26
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29971929f16493a10800000000000000
+      internalID: 1889618620075571602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 26
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18da374f5a681c70800000000000000
+      internalID: 8942014017593595932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Happy
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193f87436e32b3ec0800000000000000
+      internalID: -3586233206640675951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Angry
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bd8bbc48c6b4510800000000000000
+      internalID: 1534439415659158375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Winking
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f452eede50e8ac0f0800000000000000
+      internalID: -1095907403193506481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_CryLaugh
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1827b607be49f67e0800000000000000
+      internalID: -1770032389609000319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Crying
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249ec053bec953950800000000000000
+      internalID: 6428216577162537282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Blushing
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748d020720b87f4d0800000000000000
+      internalID: -3100856975833900985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Scared
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e37e840437e1d80800000000000000
+      internalID: -8278052345122177425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Broken
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aff3f3b035173c70800000000000000
+      internalID: 8950646083343876005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_XD
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e848ce66c4a35c9f0800000000000000
+      internalID: -448888488034794354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowMask_Karjala
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2104bbce38e601e70800000000000000
+      internalID: 9083881961297756178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a98d893a4aafda04a8456e21b1e136cc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueMask_Angry: -9052535584761028164
+      BlueMask_Blushing: -4987256140917967101
+      BlueMask_Broken: -4255437657677383167
+      BlueMask_CryLaugh: 3643454828436493978
+      BlueMask_Crying: -3138533444034281074
+      BlueMask_Evil: -5320395770616767752
+      BlueMask_Happy: -1262199221590629857
+      BlueMask_Hat: 1290578158230093900
+      BlueMask_Karjala: 8942014017593595932
+      BlueMask_Scared: 8642113145935678178
+      BlueMask_Winking: -6723478667908910863
+      BlueMask_XD: 1889618620075571602
+      D: 112120088214707227
+      GreenMask_Angry: -6889553855688929978
+      GreenMask_Blushing: -3911608372512681379
+      GreenMask_Broken: -3379564509322302027
+      GreenMask_CryLaugh: -5236059609117578201
+      GreenMask_Crying: -7774370151059660056
+      GreenMask_Evil: 5182528359621402112
+      GreenMask_Happy: 8117051964929266980
+      GreenMask_Hat: -632433553130387708
+      GreenMask_Karjala: 7940053060471721174
+      GreenMask_Scared: -5508007234171929903
+      GreenMask_Winking: 7904712967773928236
+      GreenMask_XD: -9197214907218804577
+      OrangeMask_Angry: -3650666687993228453
+      OrangeMask_Blushing: -1486165176751834738
+      OrangeMask_Broken: -5455091532476112113
+      OrangeMask_CryLaugh: -3665783730661968641
+      OrangeMask_Crying: -6467331822066393806
+      OrangeMask_Evil: -8941709165739075638
+      OrangeMask_Happy: 1086130649138930270
+      OrangeMask_Hat: 6703556566267423037
+      OrangeMask_Karjala: -5731393581650766188
+      OrangeMask_Scared: -3792609605217243277
+      OrangeMask_Winking: 3289018397704342962
+      OrangeMask_XD: -3603261690890808283
+      PurpleMask_Angry: -3640818778969162222
+      PurpleMask_Blushing: 7332965114749050662
+      PurpleMask_Broken: 8055251368443681937
+      PurpleMask_CryLaugh: -3019739462563295546
+      PurpleMask_Crying: -1637078934967211623
+      PurpleMask_Evil: 756524670563054625
+      PurpleMask_Happy: -6100563237222663695
+      PurpleMask_Hat: 3078489684464752458
+      PurpleMask_Karjala: -3283673195704566671
+      PurpleMask_Scared: 3912350143889753768
+      PurpleMask_Winking: -228015532437105729
+      PurpleMask_XD: 112120088214707227
+      RedMask_Angry: 5244800881627716737
+      RedMask_Blushing: -7058265868940328800
+      RedMask_Broken: 185806152920543951
+      RedMask_CryLaugh: -8546504008186402113
+      RedMask_Crying: 3734157956860819133
+      RedMask_Evil: 5116387995663451133
+      RedMask_Happy: 5023088011635111181
+      RedMask_Hat: -9056047480112545539
+      RedMask_Karjala: 6378888524858621270
+      RedMask_Scared: 8589858173362742538
+      RedMask_Winking: -1028446004837044206
+      RedMask_XD: 2778299241166739689
+      WhiteMask_Angry: 7040520185377774326
+      WhiteMask_Blushing: 9048884919129255057
+      WhiteMask_Broken: -5783671334022511383
+      WhiteMask_CryLaugh: -8160977106451175078
+      WhiteMask_Crying: 4877493011228027201
+      WhiteMask_Evil: -3633704465033886052
+      WhiteMask_Happy: -2980248001009872628
+      WhiteMask_Hat: 2546512457554687420
+      WhiteMask_Karjala: -5383910366333437218
+      WhiteMask_Scared: 8299384862381017623
+      WhiteMask_Winking: 7171787254096953376
+      WhiteMask_XD: -3015396099483802115
+      WhiteMask_y: -6889553855688929978
+      YellowMask_Angry: 1534439415659158375
+      YellowMask_Blushing: -3100856975833900985
+      YellowMask_Broken: 8950646083343876005
+      YellowMask_CryLaugh: -1770032389609000319
+      YellowMask_Crying: 6428216577162537282
+      YellowMask_Evil: 180234051774090498
+      YellowMask_Happy: -3586233206640675951
+      YellowMask_Hat: 6139356793428708037
+      YellowMask_Karjala: 9083881961297756178
+      YellowMask_Scared: -8278052345122177425
+      YellowMask_Winking: -1095907403193506481
+      YellowMask_XD: -448888488034794354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
